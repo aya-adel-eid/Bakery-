@@ -48,7 +48,7 @@
 /* End section navbar */
 /* Start section header */
 .header{
-    background-image: url(../Bakery\ images/images/drew-coffman-1872.jpg);
+    background-image: url(../Bakeryimages/images/drew-coffman-1872.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -352,8 +352,11 @@ margin: 17px 0;
 .prg{
     line-height: 31.26px;
 }
-.top .footer .contact-Details {
-   background-image: url(../Bakery\ images/images/contact-details-map.png);
+ .top .contact-Details {
+   background-image: url(../Bakeryimages/images/contact-details-map.png);
+   background-repeat: no-repeat;
+   background-position: center;
+  
   
 }
 /* .bottom-img img{
