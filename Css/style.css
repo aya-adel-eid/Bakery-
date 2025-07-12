@@ -1,0 +1,416 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya", serif;
+}
+/* start section NavBar */
+.nav-bar{
+ padding: 10px 0;
+ position: fixed;
+  top: 0;
+  left: 0;
+ right: 0;
+
+ z-index: 99;
+ 
+}
+.nav-bar .container img{
+    float: left;
+    width: 200px;
+    color: #fff;
+}
+.nav-bar .container ul{
+    float: right;
+    padding-top: 20px;
+}
+.clear{
+    clear:both;
+}
+.nav-bar .container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-bar .container ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    transition-property: color;
+    transition-duration: .5s;
+    
+   
+}
+.nav-bar .container ul li a:hover{
+    color: #dca654;
+}
+
+/* End section navbar */
+/* Start section header */
+.header{
+    background-image: url(../Bakery\ images/images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* overflow: auto; */
+    position: relative;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-content{
+    color:#fff;
+    text-align: center;
+    margin-top: 300px;
+    font-weight: 400px;
+}
+.header-content span{
+    font-size: 22px;
+   
+}
+.header-content h1{
+    font-size: 76px;
+    padding-top: 10px;
+    
+}
+.header-content p{
+    font-size: 24px;
+   
+     /* line-height: 1.8; */
+    
+}
+.header-content p,span,h1{
+    margin: 15px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 15px 5px;
+    font-size: 20px;
+}
+.btn-one{
+ background-color: #8e7754;
+border: 0px;
+}
+.btn-two{
+    border:solid 2px #fff;
+    background-color: transparent;
+}
+
+.header-content .btn:hover{
+    background-color: #fff;
+   color:black
+}
+.header .layer{
+   
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/*End section header */
+/* Aside section */
+.aside{
+    background-color: #fff;
+    height: 50px;
+   width: 2%;
+    position: fixed;
+    right: 0;
+    top: 220px;
+    z-index: 9;
+   
+
+}
+.scroll img{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    top: 800px;
+    z-index: 9;
+    border-radius: 50%;
+}
+/*  start section Two */
+
+.firstSection .container ,.section-location .container{
+    
+    padding-top:70px ;
+    padding-bottom: 70px;
+    
+}
+
+.firstSection-right ,.firstSection-left{
+    width: 50%;
+}
+
+.firstSection-left {
+    float: left;
+}
+.firstSection-right{
+    float: left;
+    padding-top: 2%;
+}
+.firstSection-left img ,.section-location .img img{
+ width: 90%;
+}
+/* ////// */
+.firstSection-right .contentF{
+    padding-bottom: 20%;
+}
+/* .contentF, .section-location .content {
+    white-space: pre;
+    line-height: 31.26px;
+} */
+.icon img{
+    width: 50px;
+border:gray 1px solid;
+border-radius: 50%;
+ margin-right: 10px;
+}
+.icon img,.icon .icon-prag,
+.contact-Details .icon .img-icon,.contact-Details .icon p
+,.special ul li img ,.special ul li p
+,.hour ul li img,.hour ul li p
+ {
+    display: inline-block;
+     vertical-align: middle;
+}
+.icon{
+    margin-bottom: 15px;
+}
+.contentF p ,.icon .icon-prag,.section-location .content p{
+    color: #746868cb;
+}
+/* End section two */
+/* Start section location */
+.section-location{
+    background-color: #f8f8f8;
+}
+.section-location .content ,.section-location .img{
+    width: 50%;
+}
+.section-location .content{
+    float: left;
+    padding: 100px 2%;
+}
+.section-location .img{
+    float:right;
+    padding: 50px 0;
+}
+.section-location .content h2,.contentF h2{
+    font-size: 32px;
+    margin: 0 0 25px;
+}
+.section-location .content p{
+    font-size: 17px;
+    margin: 0 0 30px;
+}
+/* End section location */
+/* Start bacing section */
+.baking-head h2{
+    font-size: 30px;
+    color: #303030;
+    font-weight: 400px;
+    margin: 15px 0;
+}
+.baking-head p{
+font-size: 17px;
+color: #888;
+margin: 17px 0;
+}
+.baking-head{
+    text-align: center;
+    padding: 20px 10px;
+}
+.baking-body .baking-item{
+    float: left;
+    width:33.3%;
+    padding:10px;
+
+}
+.baking-body .baking-item{
+    background-color: #fff;
+}
+.baking-body .baking-item img{
+    
+    width:100%
+}
+.baking-body .baking-item p,.baking-body .baking-item h3{
+    text-align: center;
+}
+.item-content{
+    padding: 20px;
+}
+.item-content h3{
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.item-content p,
+.contactInFo .headinfo p,
+.contactInFo .contact-Details p,
+.contactInFo .contact-Details .icon p{
+    font-size: 17px;
+    color: #686868;
+   
+}
+/* End section Baking */
+/* Start section contact */
+.contactInFo{
+    float: left;
+    padding: 0 18.7975px 0 0;
+    
+}
+.rightSection{
+    float: right;
+    
+    padding: 0 0 0 18.7975px;
+    
+}
+.contactInFo,.rightSection{
+    width: 50%;
+}
+.secction-contact{
+    background-color: #f8f8f8;
+    margin: 0 15px;
+    padding: 85px 58.7273px 85px 59.2727px ;
+}
+.contactInFo .headinfo h2{
+    font-size: 25.5px;
+    color: #303030;
+    margin: 0 0 25px;;
+}
+.contactInFo .headinfo p{
+    /* white-space: pre; */
+    line-height: 1.8;
+}
+.contactInFo .contact-Details .pre-details{
+    margin-top: 20px;
+    padding: 30px 0;
+}
+/* .contactInFo .contact-Details .icon{
+    padding: 15px 0 15px 52px;
+} */
+.contact-Details .icon .img-icon img{
+    width: 40px;
+    height: 40px;
+}
+.contact-Details .icon .img-icon{
+    background-color: #8e7754;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.contact-Details .icon p{
+    margin-bottom: -5px;
+    padding-left: 20px;
+}
+/* End Section contact */
+.footer{
+    padding: 60px 0 52px;
+    background-color: #403d38; 
+}
+.footer .top h4{
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 25px;
+}
+.footer .top p{
+    font-size: 16px;
+    color: #969696;
+    font-weight: 200;
+}
+.footer .top .prg-foot{
+    margin: 0 0 20px;
+}
+.footer .top .fott{
+    float: left;
+    width:25%;
+    padding: 0 15.937px;
+   
+}
+/* .special ul li img ,.special ul li p{
+    display: inline-block;
+} */
+.top .special img,.top .hour img{
+    width: 50px;
+}
+.hour ul,.special ul {
+    list-style: none;
+}
+.top ul li,.top .footer .contact-Details .icon{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.border-none{
+   border: none !important;
+}
+.prg{
+    line-height: 31.26px;
+}
+.top .footer .contact-Details {
+   background-image: url(../Bakery\ images/images/contact-details-map.png);
+  
+}
+/* .bottom-img img{
+    width: 80%;
+   
+    vertical-align: middle;
+} */
+ .bottom-img {
+  text-align: center;      
+  
+  padding: 30px 0;         
+}
+
+.bottom-img img {
+  width: 100%;             
+  max-width: 300px;
+  height: auto;
+}
+.bottom-social img{
+width: 40px;
+height: 40px;
+background-color: #484540;
+border-radius: 50%;
+transition-duration: 0.3s;
+transition-property: background-color;
+}
+.bottom-social ul li{
+    display: inline-block;
+     margin: 0 10px;
+}
+.bottom-social ul {
+  list-style: none;
+  padding: 20px 0;
+  text-align: center; 
+}
+
+.bottom-social .bluee:hover{
+    background-color: #014c8c;
+}
+.bottom-social .red:hover{
+background-color: rgb(195, 53, 1);
+}
+.bottom-social .kk:hover{
+    background-color: rgb(91, 91, 228);
+}
+.bottom-social p{
+    color: #7777;
+    font-size: 15px;
+    margin: 5px 0 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
